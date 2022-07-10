@@ -27,7 +27,8 @@ namespace FunctionApp1
             var result = Querystring["name"];
 
 
-            response.WriteString("Welcome to Azure Functions" + result +"!");
+          
+            response.WriteString("Welcome to Azure function via Get method!" + result);
 
             return response;
         }
